@@ -1,0 +1,6 @@
+{
+  "input_file": "data/raw_data.csv",
+  "output_file": "data/cleaned_data.csv",
+  "missing_value_strategy": "median",
+  "remove_duplicates": true
+}

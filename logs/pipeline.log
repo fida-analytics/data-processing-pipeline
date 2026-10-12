@@ -1,0 +1,25 @@
+2026-10-12 21:47:41,765 - INFO - Reading CSV file
+2026-10-12 21:47:41,788 - INFO - Cleaned data saved successfully
+2026-10-12 21:51:46,765 - INFO - Reading CSV file
+2026-10-12 21:51:46,796 - INFO - Cleaned data saved successfully
+2026-10-12 21:51:46,837 - INFO - Starting data pipeline
+2026-10-12 21:51:46,841 - INFO - Reading CSV file
+2026-10-12 21:51:46,893 - INFO - Cleaned data saved successfully
+2026-10-12 21:51:46,909 - INFO - Pipeline completed successfully
+2026-10-12 21:55:28,038 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\data-processing-pipeline\src\main.py", line 34, in main
+    result = process_file(input_file, output_file, config)
+                                                   ^^^^^^
+NameError: name 'config' is not defined
+2026-10-12 21:56:35,568 - ERROR - Pipeline failed
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\data-processing-pipeline\src\main.py", line 34, in main
+    result = process_file(input_file, output_file, config)
+                                                   ^^^^^^
+NameError: name 'config' is not defined
+2026-10-12 21:59:13,201 - INFO - Starting data processing pipeline
+2026-10-12 21:59:13,201 - INFO - Reading file: C:\Users\DELL\Desktop\data-processing-pipeline\data\raw_data.csv
+2026-10-12 21:59:13,209 - INFO - Removed 1 duplicate rows
+2026-10-12 21:59:13,227 - INFO - Output saved to C:\Users\DELL\Desktop\data-processing-pipeline\data\cleaned_data.csv
+2026-10-12 21:59:13,240 - INFO - Pipeline completed successfully

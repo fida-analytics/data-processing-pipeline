@@ -1,0 +1,7 @@
+name,age,salary,department
+Ali,25,50000,IT
+Sara,30,65000,HR
+Ahmed,,45000,IT
+Fatima,28,,Finance
+Ali,25,50000,IT
+Usman,abc,55000,Sales
